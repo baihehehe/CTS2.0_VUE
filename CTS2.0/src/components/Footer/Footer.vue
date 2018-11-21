@@ -28,9 +28,10 @@
 <style lang="stylus" rel="stylesheet/stylus" scoped>
   .box-foot
     width 100%
+    position fixed
     bottom 0
-    height 85px
-    overflow hidden
+    height 16%
+    /*overflow hidden*/
     background #02aff0
     color #fff
     .box-foot-ul
