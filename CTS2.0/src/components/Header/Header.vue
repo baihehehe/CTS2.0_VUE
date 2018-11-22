@@ -2,11 +2,12 @@
   <header class="box-head">
     <div class="skiing-back fl">
       <i class="skiing-logobox-i fr">
-        <img src="/static/img/skiing-logo.png"/>
+        <img src="/static/img/bxlogo_1.png"/>
       </i>
     </div>
     <div class="skiing-logobox fr">
-      <span class="skiing-logobox-span fl"></span>
+      <span class="skiing-logobox-span fl">中国大众滑雪技术网</span>
+      <span class="skiing-logobox-span test fl">CHINA TECHNICAL SKI</span>
     </div>
   </header>
 </template>
@@ -53,12 +54,14 @@
     .skiing-logobox-span
       width 145px
       height 21px
+      font-size 12px
+      color #ffffff
       position absolute
       left 50px
       top 15px
       float left
-      background url(/static/img/skiing-logo-name.png) no-repeat
-      background-size 100% 100%
+    .test
+      top 30px
     .skiing-logobox-i
       display block
       width 31px

@@ -26,28 +26,55 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
-  .box-foot
-    width 100%
-    position fixed
-    bottom 0
-    height 16%
-    /*overflow hidden*/
-    background #02aff0
-    color #fff
-    .box-foot-ul
-      overflow hidden
-      padding-top 15px
-      li
-        float left
-        width 33%
-        text-align center
-        font-size 12px
-      &:last-child
-        margin-right 0
-        p
-          margin-bottom 6px
+  @media screen and (max-width: 419.9px)
+    .box-foot
+      width 100%
+      position fixed
+      bottom 0
+      height 16%
+      /*overflow hidden*/
+      background #02aff0
+      color #fff
+      .box-foot-ul
+        overflow hidden
+        padding-top 15px
+        li
+          float left
+          width 33%
           text-align center
-          word-break break-all
-          a
-            color #fff
+          font-size 12px
+        &:last-child
+          margin-right 0
+          p
+            margin-bottom 6px
+            text-align center
+            word-break break-all
+            a
+              color #fff
+  @media (max-width: 768.9px) and (min-width: 420px)
+    .box-foot
+      width 100%
+      bottom 0
+      height 16%
+      /*overflow hidden*/
+      background #02aff0
+      color #fff
+      padding: 0px 0 50px 0;
+      margin-top: 60px;
+      .box-foot-ul
+        overflow hidden
+        padding-top 15px
+        li
+          float left
+          width 33%
+          text-align center
+          font-size 12px
+        &:last-child
+          margin-right 0
+          p
+            margin-bottom 6px
+            text-align center
+            word-break break-all
+            a
+              color #fff
 </style>
