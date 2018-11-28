@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Index from '../pages/Index/Index'
+import Msite from '../pages/Msite/Msite'
 import Login from '../pages/Login/Login'
 import Register from '../pages/Register/Register'
 
@@ -14,8 +14,8 @@ export default new VueRouter({
       component: Login
     },
     {
-      path: '/index',
-      component: Index
+      path: '/msite',
+      component: Msite
     },
     {
       path: '/register',

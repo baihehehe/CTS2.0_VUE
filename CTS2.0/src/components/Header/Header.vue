@@ -2,7 +2,7 @@
   <header class="box-head">
     <div class="skiing-back fl">
       <i class="skiing-logobox-i fr">
-        <img src="/static/img/bxlogo_1.png"/>
+        <img src="/static/img/bxlogo_1.png" @click="$router.replace('/msite')"/>
       </i>
     </div>
     <div class="skiing-logobox fr">

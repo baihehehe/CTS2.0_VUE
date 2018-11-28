@@ -51,7 +51,7 @@
             word-break break-all
             a
               color #fff
-  @media (max-width: 768.9px) and (min-width: 420px)
+  @media (max-width: 979.9px) and (min-width: 420px)
     .box-foot
       width 100%
       bottom 0
@@ -59,7 +59,7 @@
       /*overflow hidden*/
       background #02aff0
       color #fff
-      padding: 0px 0 50px 0;
+      padding: 0 0 50px 0;
       margin-top: 60px;
       .box-foot-ul
         overflow hidden
